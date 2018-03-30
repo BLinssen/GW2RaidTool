@@ -1,0 +1,99 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 13px;
+  color: white;
+  background: #333;
+}
+
+
+
+button {
+ color: black;
+ background-color: white;
+      background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+hr {
+    display: block;
+    height: 10px;
+    border: 0;
+    margin-bottom: 5px;
+    padding-top: 0;
+    background-color: orange;
+}
+
+h1 {
+ text-align: center;
+     margin: -4px 20px;
+  
+}
+
+h2 {
+
+  text-align: center;
+  margin: 30px 15px;
+  
+}
+
+h3 {
+  padding-left: 40px;
+  
+}
+
+p {
+  padding-left: 50px
+}
+
+ul {
+  padding-left: 70px;
+  
+}
+span {
+    color: white;
+    text-shadow: 0 1px black;
+    background: #333; /* For browsers that don't support RGBA */
+    background: rgba(0,0,0,0.18);
+    padding: 4px 8px;
+}
+
+div {
+  background: #222233;
+  margin: 0 auto;
+  width: 800px;
+
+  /* border-radius */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /* box-shadow */
+  -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+}
+
